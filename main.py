@@ -22,7 +22,7 @@ base_path = ''
 dedata = {'ret': 0, 'msg': "success"}
 
 # 企业微信群机器人的webhook地址
-bot_url = ""
+bot_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=c28ebcc1-d4e0-4d3d-b58e-0e403d378e84"
 
 def send2Bot(md):
     url = bot_url
